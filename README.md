@@ -1,3 +1,5 @@
+![Preview-Gifs](https://github.com/andrewmatheus/be-the-hero/blob/master/imgs/bethehero.gif)
+
 <h1 align="center">
     <img alt="" title="" src="imgs/logo.svg">
 </h1>
@@ -18,32 +20,81 @@ Em uma semana foi desenvolvida uma aplicação do zero, dominando o backend, fro
 
 [Layout](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1) da aplicação no <img src="imgs/figma.png" alt="figma" height="20"> Figma.
 
-## Para rodar a aplicação
+## Getting Started
 
-> OBS: pode-se utilizar o gerenciador de pacotes npm ou o yarn para rodar os comandos abaixo
+### Prerequisites
 
-Execute ```npm install``` nas pastas backend, frontend e mobile, para instalar as dependências.
+[yarn](https://yarnpkg.com/)
+[expo](https://expo.io/learn)
 
-Rode ```npm start``` nas pastas backend e frontend para utilizar a versão web. Acesse via **localhost:3000**.
+### Installing
 
-Rode ```npm start``` nas pastas backend e mobile, acesse **localhost:19002**, leia o QR Code no seu celular e utilize o aplicativo <img src="imgs/expo.png" alt="rocketseat" height="20"> Expo para rodar a versão mobile no seu smartphone. Ou com algum emulador Android/iOS para rodar no seu computador.
+**Cloning the Repository**
+
+```
+$ git clone https://github.com/andrewmatheus/be-the-hero.git
+
+$ cd be-the-hero
+```
+
+**Installing dependencies**
+
+```
+$ cd be-the-hero/backend
+$ yarn
+
+&&
+
+$ cd be-the-hero/frontend
+$ yarn
+
+&&
+
+$ cd be-the-hero/mobile
+$ yarn
+```
+
+### Running
+
+> Localhost
+```
+// backend
+$ yarn dev
+
+// frontend and mobile
+$ yarn start
+```
+-------
+**Acesse a versão web**: Acesse via **localhost:3000**.  
+
+Acesse a versão mobile: **localhost:19002**, leia o QR Code no seu celular e utilize o aplicativo <img src="imgs/expo.png" alt="rocketseat" height="20"> Expo para rodar a versão mobile no seu smartphone. Ou com algum emulador Android/iOS para rodar no seu computador.
+--------
+
+## Built With
+
+- [Knex](http://knexjs.org/)
+- [Cors](https://expressjs.com/en/resources/middleware/cors.html)
+- [Express](https://expressjs.com/)
+- [Jest](https://jestjs.io/)
+- [Axios](https://github.com/axios/axios) - HTTP Client
+- [ESlint](https://eslint.org/) - Linter
+- [Prettier](https://prettier.io/) - Code Formatter
+- [Babel](https://babeljs.io/) - JavaScript Compiler
+- [Styled-Components](https://www.styled-components.com/) - Styles
+- [React-Router-Dom](https://reacttraining.com/react-router/web/guides/quick-start) - Roteamento
+- [React Icons](https://react-icons.netlify.app/) - Pacote de icons do React
+- [ReactNavigation](https://reactnavigation.org/)
+
 
 ## Telas
 
 <p align="center">
     <img alt="" title="" src="imgs/print1.png">
-    <img alt="" title="" src="imgs/print2.png">
-    <img alt="" title="" src="imgs/print3.png">
-    <img alt="" title="" src="imgs/print4.png">
+    <img alt="" title="" src="imgs/print2.png">    
     <img alt="" title="" src="imgs/print5.png">
-    <img alt="" title="" src="imgs/print6.png">
-    <img alt="" title="" src="imgs/print7.png">
-    <img alt="" title="" src="imgs/print8.png">
-    <img alt="" title="" src="imgs/print9.png">
+    <img alt="" title="" src="imgs/print6.png">    
     <img alt="" title="" src="imgs/print-insomnia.png">
 </p>
-
-Veja também esse [vídeo]() com a demonstração das versões web e mobile rodando localmente.
 
 ---
 
@@ -60,4 +111,3 @@ Connect with me at [LinkedIn](https://www.linkedin.com/in/andrew-cabral-develope
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/steniowagner/mindCast/blob/master/LICENSE) file for details
-
