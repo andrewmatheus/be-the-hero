@@ -24,7 +24,7 @@ Em uma semana foi desenvolvida uma aplicação do zero, dominando o backend, fro
 
 ### Prerequisites
 
-[yarn](https://yarnpkg.com/)
+[yarn](https://yarnpkg.com/)  
 [expo](https://expo.io/learn)
 
 ### Installing
@@ -65,9 +65,11 @@ $ yarn dev
 $ yarn start
 ```
 -------
+
 **Acesse a versão web**: Acesse via **localhost:3000**.  
 
-Acesse a versão mobile: **localhost:19002**, leia o QR Code no seu celular e utilize o aplicativo <img src="imgs/expo.png" alt="rocketseat" height="20"> Expo para rodar a versão mobile no seu smartphone. Ou com algum emulador Android/iOS para rodar no seu computador.
+**Acesse a versão mobile**: Acesse via **localhost:19002**, leia o QR Code no seu celular e utilize o aplicativo  Expo para rodar a versão mobile no seu smartphone. Ou com algum emulador Android/iOS para rodar no seu computador.
+
 --------
 
 ## Built With
