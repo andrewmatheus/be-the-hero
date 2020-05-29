@@ -112,4 +112,4 @@ Connect with me at [LinkedIn](https://www.linkedin.com/in/andrew-cabral-develope
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/steniowagner/mindCast/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/andrewmatheus/gobaber11/blob/master/LICENSE) file for details
